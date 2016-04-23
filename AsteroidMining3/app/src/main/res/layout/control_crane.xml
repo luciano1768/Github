@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Base Engine"
+            android:id="@+id/lblFirstEngine"
+            android:layout_row="0"
+            android:layout_column="0" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="First elbow engine"
+            android:id="@+id/lblFirstElbowEngine"
+            android:layout_row="1"
+            android:layout_column="0" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/edtFirstElbowEngine"
+            android:layout_row="1"
+            android:layout_column="1" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Second elbow engine"
+            android:id="@+id/lblSecondElbowEngine"
+            android:layout_row="2"
+            android:layout_column="0" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/edtBaseEngine"
+            android:layout_row="0"
+            android:layout_column="1" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/edtSecondElbowEngine"
+            android:layout_row="2"
+            android:layout_column="1" />
+
+    </GridLayout>
+</LinearLayout>
